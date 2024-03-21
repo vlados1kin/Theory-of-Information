@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "RqbE+yvd/SHMpdWC15dMLWwxTD1f3Ow1ZQMdFWVwCvQ=",
+  "Source": "TI.Laba1",
+  "BasePath": "_content/TI.Laba1",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TI.Laba1\\wwwroot",
+      "Source": "TI.Laba1",
+      "ContentRoot": "D:\\BSUIR\\course-2\\TI\\TI.Laba1\\wwwroot\\",
+      "BasePath": "_content/TI.Laba1",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\BSUIR\\course-2\\TI\\TI.Laba1\\wwwroot\\index.html",
+      "SourceId": "TI.Laba1",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\BSUIR\\course-2\\TI\\TI.Laba1\\wwwroot\\",
+      "BasePath": "_content/TI.Laba1",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}

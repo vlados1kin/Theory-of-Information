@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Laba1</title>
+    <style>
+        .main {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        .align {
+            align-items: center;
+            justify-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="main align">
+        <div><h3>Текст</h3></div>
+        <div><h3>Файл</h3></div>
+    </div>
+    <div class="main">
+        <div>
+            <form action="text" method="post">
+                <p>Метод:
+                    <select name="method">
+                        <option value="dec" id="dec-text" selected="selected">Метод децимаций</option>
+                        <option value="vig" id="vig-text">Алгоритм Виженера, самогенерирующийся ключ</option>
+                    </select>
+                </p>
+                <p>Режим:
+                    <select name="regime">
+                        <option value="encrypt" id="encrypt-text" selected="selected">Шифровать</option>
+                        <option value="decrypt" id="decrypt-text">Дешифровать</option>
+                    </select>
+                </p>
+                <p>Ключ:
+                    <input type="text" value="13" name="key" id="text-num">
+                </p>
+                <p>Исх. текст:<br>
+                    <textarea cols="40" name="src" id="src">ввава</textarea>
+                </p>
+                <p>Рез. текст:<br>
+                    <textarea cols="40" name="dest" id="dest" readonly="">щщаща</textarea>
+                </p>
+                <input type="submit">
+            </form>
+        </div>    
+        <div>
+            <form action="file" method="post" enctype="multipart/form-data">
+                <p>Метод:
+                    <select name="method">
+                        <option value="dec" id="dec-file">Метод децимаций</option>
+                        <option value="vig" id="vig-file" selected="selected">Алгоритм Виженера, самогенерирующийся ключ</option>
+                    </select>
+                </p>
+                <p>Режим:
+                    <select name="regime">
+                        <option value="encrypt" id="encrypt-file">Шифровать</option>
+                        <option value="decrypt" id="decrypt-file" selected="selected">Дешифровать</option>
+                    </select>
+                </p>
+                <p>Ключ:
+                    <input type="text" value="12лес" name="key" id="file-num">
+                </p>
+                <p>Файл: <input type="file" name="upload"></p>
+                <p>Рез. текст:<br>
+                    <textarea cols="40" name="dest" id="res" readonly="">ёлки зелё
+
+ные в лесу!</textarea>
+                </p>
+                <input type="submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Idk1UdGTQ/VE6U+d+yhI9wdBnDp+wNGydP/ZCFQ/7jMFdXf51V1/u0MBA/9Cd6wWKWuXEgVZbmYqtYMy+f9CTA==",
+  "success": true,
+  "projectFilePath": "D:\\BSUIR\\course-2\\TI\\TI.Laba1\\TI.Laba1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vladislav\\.nuget\\packages\\htmlagilitypack\\1.11.59\\htmlagilitypack.1.11.59.nupkg.sha512"
+  ],
+  "logs": []
+}
